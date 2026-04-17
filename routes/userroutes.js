@@ -44,9 +44,9 @@ router.post("/register", async (req, res) => {
 });
 
 
-// ==============================
+// =======================================
 // ✅ LOGIN USER
-// ==============================
+// ========================================
 router.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
